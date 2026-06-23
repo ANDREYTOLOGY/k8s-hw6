@@ -1,0 +1,11 @@
+nginx:
+  replicaCount: 1
+  image:
+    repository: nginx
+    tag: "1.31"
+
+multitool:
+  replicaCount: 1
+  image:
+    repository: wbitt/network-multitool
+    tag: "latest"
